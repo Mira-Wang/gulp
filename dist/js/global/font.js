@@ -1,0 +1,1 @@
+"use strict";$(function(){function t(){var t=document.documentElement.clientWidth||document.body.clientWidth,e=document.getElementsByTagName("html").item(0);e.style.fontSize=t<=750?t/32+"px":"16px"}t(),window.onresize=function(){t()}});

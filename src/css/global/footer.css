@@ -1,0 +1,112 @@
+/* ===footer=== */
+a {
+  color: #7a8399;
+  text-decoration: none;
+}
+.footer_block {
+  width: 100%;
+  /* height: 392px; */
+  background: #202940;
+}
+.footer_top {
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 45px 0 35px;
+}
+.footer_top_item_title {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #c3cde6;
+  margin-bottom: 0.875rem;
+}
+.foot_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.foot_list_item {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #7a8399;
+  margin: 8px 0;
+}
+.foot_list_item:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.contact_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a8399;
+  margin: 5px 0;
+}
+.contact_item img {
+  max-width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+.foot_list_code {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+.footer_bottom {
+  width: 100%;
+  margin: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 1.25rem;
+}
+
+.footer_bottom p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #7a8399;
+  margin: 4px 0;
+}
+.footer_bottom p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 960px) {
+  /* 宽度<=960px时候  */
+  .footer_top {
+    flex-wrap: wrap;
+  }
+
+  .footer_top_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 1.25rem;
+  }
+  .footer_pc {
+    display: none;
+  }
+  .footer_bottom p {
+    width: 80%;
+    text-align: center;
+  }
+}
